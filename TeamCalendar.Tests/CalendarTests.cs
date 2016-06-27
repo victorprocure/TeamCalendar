@@ -48,7 +48,7 @@ namespace TeamCalendar.Tests
 
             var calendarEvent = calendar.AddEvent(new MockMultiDayEvent());
 
-            Assert.IsTrue(calendar.HasEvent(DateTime.Now.AddDays(3)));
+            Assert.IsTrue(calendar.HasEvent(DateTime.Now.AddDays(3))); 
         }
 
 
